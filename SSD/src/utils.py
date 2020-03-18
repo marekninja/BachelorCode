@@ -183,8 +183,8 @@ class Encoder(object):
             # print(i)
 
             score = score.squeeze(1)
-            # mask = score > 0.05 povodne
-            mask = score > 0.02
+            mask = score > 0.05 #povodne
+            # mask = score > 0.02
 
             bboxes, score = bboxes_in[mask, :], score[mask]
             if score.size(0) == 0: continue
