@@ -8,13 +8,13 @@ https://nervanasystems.github.io/distiller/
 
 ### ResNet_2.ipynb 
 Quantization of ResNet18
-Tried 8bit, 4bit
+*   Tried 8bit, 4bit
 
 ### ResNet50.ipynb
-Quantization of ResNet18
-Tried 8bit, 4bit
-Not everything calculated yet...
-(maybe deeper network won't lose acc due to quant.)
+Quantization of ResNet50
+*   Tried 8bit, 4bit
+*   Not everything calculated yet...
+*   (maybe deeper network won't lose acc due to quant.)
 
 ## SSD
 
