@@ -4,13 +4,21 @@ Used Distiller Framework
 https://github.com/NervanaSystems/distiller
 https://nervanasystems.github.io/distiller/
 
-## ResNet.ipynb 
+## ResNet
+
+### ResNet_2.ipynb 
 Quantization of ResNet18
 Tried 8bit, 4bit
 
+### ResNet50.ipynb
+Quantization of ResNet18
+Tried 8bit, 4bit
+Not everything calculated yet...
+(maybe deeper network won't lose acc due to quant.)
+
 ## SSD
 
-SSD_3.ipynb
+### SSD_3.ipynb
 *	latest
 *	used model with PyTorch Checkopint https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Detection/SSD#model-architecture
 *		modified for quantization purposes
