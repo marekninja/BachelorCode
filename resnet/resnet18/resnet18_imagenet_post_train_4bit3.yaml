@@ -50,8 +50,8 @@
 quantizers:
   post_train_quantizer:
     class: PostTrainLinearQuantizer
-    bits_activations: 8
-    bits_parameters: 8
+    bits_activations: 4
+    bits_parameters: 4
     bits_accum: 16
 
     # Quantization mode can be defined either with a single value for both weights and activations, or with
@@ -70,9 +70,9 @@ quantizers:
     clip_acts: AVG
 
     # Overrides section for run 3
-    overrides:
-      fc:
-        clip_acts: NONE  # Don't clip activations in last layer before softmax
+#    overrides:
+#      fc:
+#        clip_acts: NONE  # Don't clip activations in last layer before softmax
 
     # Overrides section for run 4
 #    overrides:
@@ -83,15 +83,15 @@ quantizers:
 #        clip_acts: NONE  # Don't clip activations in last layer before softmax
 
     # Overrides section for run 5
-#    overrides:
-#    # First and last layers in 8-bits
-#      conv1:
-#        bits_weights: 8
-#        bits_activations: 8
-#      fc:
-#        bits_weights: 8
-#        bits_activations: 8
-#        clip_acts: NONE  # Don't clip activations in last layer before softmax
+    overrides:
+    # First and last layers in 8-bits
+      conv1:
+        bits_weights: 8
+        bits_activations: 8
+      fc:
+        bits_weights: 8
+        bits_activations: 8
+        clip_acts: NONE  # Don't clip activations in last layer before softmax
 
     # Overrides section for run 6
 #    overrides:
