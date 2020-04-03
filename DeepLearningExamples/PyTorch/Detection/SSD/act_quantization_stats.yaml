@@ -1,0 +1,4134 @@
+feature_extractor.feature_extractor.0:
+  inputs:
+    0:
+      min: -2.1179039478302
+      max: 2.640000104904175
+      avg_min: -2.066529614206844
+      avg_max: 2.497321428228202
+      mean: -0.030874375555321732
+      std: 0
+      b: 0
+      shape: (10, 3, 300, 300)
+      total_numel: 133650000
+  output:
+    min: -23.553115844726562
+    max: 21.592613220214844
+    avg_min: -13.4090852794217
+    avg_max: 13.862443523604272
+    mean: 0.0049022926421331365
+    std: 0
+    b: 0
+    shape: (10, 64, 150, 150)
+    total_numel: 712800000
+feature_extractor.feature_extractor.1:
+  inputs:
+    0:
+      min: -23.553115844726562
+      max: 21.592613220214844
+      avg_min: -13.4090852794217
+      avg_max: 13.862443523604272
+      mean: 0.0049022926421331365
+      std: 0
+      b: 0
+      shape: (10, 64, 150, 150)
+      total_numel: 712800000
+  output:
+    min: -7.218692302703857
+    max: 6.45006799697876
+    avg_min: -3.4146035857107346
+    avg_max: 3.987719867827479
+    mean: 0.3589823930274971
+    std: 0
+    b: 0
+    shape: (10, 64, 150, 150)
+    total_numel: 712800000
+feature_extractor.feature_extractor.2:
+  inputs:
+    0:
+      min: 0.0
+      max: 6.45006799697876
+      avg_min: 0.0
+      avg_max: 3.987719867827479
+      mean: 0.42594177960157126
+      std: 0
+      b: 0
+      shape: (10, 64, 150, 150)
+      total_numel: 712800000
+  output:
+    min: 0.0
+    max: 6.45006799697876
+    avg_min: 0.0
+    avg_max: 3.987719867827479
+    mean: 0.42594177960157126
+    std: 0
+    b: 0
+    shape: (10, 64, 150, 150)
+    total_numel: 712800000
+feature_extractor.feature_extractor.3:
+  inputs:
+    0:
+      min: 0.0
+      max: 6.45006799697876
+      avg_min: 0.0
+      avg_max: 3.987719867827479
+      mean: 0.42594177960157126
+      std: 0
+      b: 0
+      shape: (10, 64, 150, 150)
+      total_numel: 712800000
+  output:
+    min: 0.0
+    max: 6.45006799697876
+    avg_min: 0.0
+    avg_max: 3.9877180028188244
+    mean: 0.5770169128787878
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.0.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 6.45006799697876
+      avg_min: 0.0
+      avg_max: 3.9877180028188244
+      mean: 0.5770169128787878
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -4.095003128051758
+    max: 4.522825241088867
+    avg_min: -3.071528282670641
+    avg_max: 3.466116554818805
+    mean: -0.1671314036195286
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.0.bn1:
+  inputs:
+    0:
+      min: -4.095003128051758
+      max: 4.522825241088867
+      avg_min: -3.071528282670641
+      avg_max: 3.466116554818805
+      mean: -0.1671314036195286
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -5.0253825187683105
+    max: 2.214710235595703
+    avg_min: -3.8892755352528807
+    avg_max: 1.654562570160405
+    mean: 0.06463378814183504
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.0.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.214710235595703
+      avg_min: 0.0
+      avg_max: 1.654562570160405
+      mean: 0.1488842357603816
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: 0.0
+    max: 2.214710235595703
+    avg_min: 0.0
+    avg_max: 1.654562570160405
+    mean: 0.1488842357603816
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.0.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.214710235595703
+      avg_min: 0.0
+      avg_max: 1.654562570160405
+      mean: 0.1488842357603816
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -2.8287174701690674
+    max: 2.154378890991211
+    avg_min: -1.647565037211163
+    avg_max: 1.4833110238477651
+    mean: 0.03719864592101571
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.0.bn2:
+  inputs:
+    0:
+      min: -2.8287174701690674
+      max: 2.154378890991211
+      avg_min: -1.647565037211163
+      avg_max: 1.4833110238477651
+      mean: 0.03719864592101571
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -3.17266583442688
+    max: 2.538116455078125
+    avg_min: -1.8806976645959779
+    avg_max: 1.860838245865151
+    mean: 0.17136140169051622
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.0.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.538116455078125
+      avg_min: 0.0
+      avg_max: 1.860838245865151
+      mean: 0.2294832540684624
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: 0.0
+    max: 2.538116455078125
+    avg_min: 0.0
+    avg_max: 1.860838245865151
+    mean: 0.2294832540684624
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.0.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.538116455078125
+      avg_min: 0.0
+      avg_max: 1.860838245865151
+      mean: 0.2294832540684624
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -0.8053872585296631
+    max: 0.8002834320068359
+    avg_min: -0.6064248379987889
+    avg_max: 0.5922804208000267
+    mean: -0.000852063561984318
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.0.bn3:
+  inputs:
+    0:
+      min: -0.8053872585296631
+      max: 0.8002834320068359
+      avg_min: -0.6064248379987889
+      avg_max: 0.5922804208000267
+      mean: -0.000852063561984318
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -2.934030532836914
+    max: 2.9894614219665527
+    avg_min: -1.8587618977726754
+    avg_max: 2.249606316962267
+    mean: 0.03488355367915264
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.0.downsample.0:
+  inputs:
+    0:
+      min: 0.0
+      max: 6.45006799697876
+      avg_min: 0.0
+      avg_max: 3.9877180028188244
+      mean: 0.5770169128787878
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -4.358458518981934
+    max: 5.5676679611206055
+    avg_min: -2.7007259658291605
+    avg_max: 4.381517927288457
+    mean: -0.14156308624438832
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.0.downsample.1:
+  inputs:
+    0:
+      min: -4.358458518981934
+      max: 5.5676679611206055
+      avg_min: -2.7007259658291605
+      avg_max: 4.381517927288457
+      mean: -0.14156308624438832
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -7.219716548919678
+    max: 3.9745092391967773
+    avg_min: -3.509973342046898
+    avg_max: 2.6925404665583836
+    mean: 0.03907980617810045
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.0.add:
+  inputs:
+    0:
+      min: -6.987435340881348
+      max: 4.085488319396973
+      avg_min: -3.8266373800451503
+      avg_max: 2.9175580476213554
+      mean: 0.07396335919963522
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+    1:
+      min: -7.219716548919678
+      max: 3.9745092391967773
+      avg_min: -3.509973342046898
+      avg_max: 2.6925404665583836
+      mean: 0.03907980617810045
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -6.987435340881348
+    max: 4.085488319396973
+    avg_min: -3.8266373800451503
+    avg_max: 2.9175580476213554
+    mean: 0.07396335919963522
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.0.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.085488319396973
+      avg_min: 0.0
+      avg_max: 2.9175580476213554
+      mean: 0.1637238994107744
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: 0.0
+    max: 4.085488319396973
+    avg_min: 0.0
+    avg_max: 2.9175580476213554
+    mean: 0.1637238994107744
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.1.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.085488319396973
+      avg_min: 0.0
+      avg_max: 2.9175580476213554
+      mean: 0.1637238994107744
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -1.7561492919921875
+    max: 2.1722652912139893
+    avg_min: -1.1664517593240267
+    avg_max: 1.4255466437984008
+    mean: 0.005211251953673014
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.1.bn1:
+  inputs:
+    0:
+      min: -1.7561492919921875
+      max: 2.1722652912139893
+      avg_min: -1.1664517593240267
+      avg_max: 1.4255466437984008
+      mean: 0.005211251953673014
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -3.8654935359954834
+    max: 2.7191128730773926
+    avg_min: -2.565042045373435
+    avg_max: 1.893169659099919
+    mean: -0.0387470363574986
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.1.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.7191128730773926
+      avg_min: 0.0
+      avg_max: 1.893169659099919
+      mean: 0.10766698512906846
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: 0.0
+    max: 2.7191128730773926
+    avg_min: 0.0
+    avg_max: 1.893169659099919
+    mean: 0.10766698512906846
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.1.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.7191128730773926
+      avg_min: 0.0
+      avg_max: 1.893169659099919
+      mean: 0.10766698512906846
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -1.171129822731018
+    max: 1.269252061843872
+    avg_min: -0.881502462601639
+    avg_max: 0.9097667259777941
+    mean: -0.041735496808361375
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.1.bn2:
+  inputs:
+    0:
+      min: -1.171129822731018
+      max: 1.269252061843872
+      avg_min: -0.881502462601639
+      avg_max: 0.9097667259777941
+      mean: -0.041735496808361375
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -2.6462550163269043
+    max: 3.1116013526916504
+    avg_min: -1.932827379370696
+    avg_max: 2.320624979009996
+    mean: -0.015052738775559413
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.1.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.1116013526916504
+      avg_min: 0.0
+      avg_max: 2.320624979009996
+      mean: 0.12244595924523008
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: 0.0
+    max: 3.1116013526916504
+    avg_min: 0.0
+    avg_max: 2.320624979009996
+    mean: 0.12244595924523008
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.1.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.1116013526916504
+      avg_min: 0.0
+      avg_max: 2.320624979009996
+      mean: 0.12244595924523008
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -0.9278591871261597
+    max: 0.6577468514442444
+    avg_min: -0.6612421420166378
+    avg_max: 0.49222288956079585
+    mean: -0.0016740918379761153
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.1.bn3:
+  inputs:
+    0:
+      min: -0.9278591871261597
+      max: 0.6577468514442444
+      avg_min: -0.6612421420166378
+      avg_max: 0.49222288956079585
+      mean: -0.0016740918379761153
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -3.5450267791748047
+    max: 2.76094126701355
+    avg_min: -2.3527591634840515
+    avg_max: 1.9946744455545153
+    mean: -0.00998281526199495
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.1.add:
+  inputs:
+    0:
+      min: -3.5450267791748047
+      max: 5.6934309005737305
+      avg_min: -2.3489169915071577
+      avg_max: 3.1026609505881093
+      mean: 0.15374108305274978
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+    1:
+      min: 0.0
+      max: 4.085488319396973
+      avg_min: 0.0
+      avg_max: 2.9175580476213554
+      mean: 0.1637238994107744
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -3.5450267791748047
+    max: 5.6934309005737305
+    avg_min: -2.3489169915071577
+    avg_max: 3.1026609505881093
+    mean: 0.15374108305274978
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.1.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.6934309005737305
+      avg_min: 0.0
+      avg_max: 3.1026609505881093
+      mean: 0.19074201967592602
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: 0.0
+    max: 5.6934309005737305
+    avg_min: 0.0
+    avg_max: 3.1026609505881093
+    mean: 0.19074201967592602
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.2.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.6934309005737305
+      avg_min: 0.0
+      avg_max: 3.1026609505881093
+      mean: 0.19074201967592602
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -1.7248125076293945
+    max: 1.3904715776443481
+    avg_min: -1.2725567065904277
+    avg_max: 1.0884837797419233
+    mean: -0.03871905377560325
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.2.bn1:
+  inputs:
+    0:
+      min: -1.7248125076293945
+      max: 1.3904715776443481
+      avg_min: -1.2725567065904277
+      avg_max: 1.0884837797419233
+      mean: -0.03871905377560325
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -3.2495532035827637
+    max: 3.9370017051696777
+    avg_min: -2.0207945304010373
+    avg_max: 2.0182888995984065
+    mean: -0.021867904204808504
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.2.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.9370017051696777
+      avg_min: 0.0
+      avg_max: 2.0182888995984065
+      mean: 0.10711792894219978
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: 0.0
+    max: 3.9370017051696777
+    avg_min: 0.0
+    avg_max: 2.0182888995984065
+    mean: 0.10711792894219978
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.2.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.9370017051696777
+      avg_min: 0.0
+      avg_max: 2.0182888995984065
+      mean: 0.10711792894219978
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -2.0254416465759277
+    max: 1.7915979623794556
+    avg_min: -1.2895843597003576
+    avg_max: 1.1725388290680516
+    mean: -0.05435397736040965
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.2.bn2:
+  inputs:
+    0:
+      min: -2.0254416465759277
+      max: 1.7915979623794556
+      avg_min: -1.2895843597003576
+      avg_max: 1.1725388290680516
+      mean: -0.05435397736040965
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -3.796424150466919
+    max: 8.909358978271484
+    avg_min: -2.352732396584665
+    avg_max: 3.06812992510448
+    mean: -0.09715680292508418
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.2.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 8.909358978271484
+      avg_min: 0.0
+      avg_max: 3.06812992510448
+      mean: 0.08313697618546576
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: 0.0
+    max: 8.909358978271484
+    avg_min: 0.0
+    avg_max: 3.06812992510448
+    mean: 0.08313697618546576
+    std: 0
+    b: 0
+    shape: (10, 64, 75, 75)
+    total_numel: 178200000
+feature_extractor.feature_extractor.4.2.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 8.909358978271484
+      avg_min: 0.0
+      avg_max: 3.06812992510448
+      mean: 0.08313697618546576
+      std: 0
+      b: 0
+      shape: (10, 64, 75, 75)
+      total_numel: 178200000
+  output:
+    min: -1.130544662475586
+    max: 0.7817655205726624
+    avg_min: -0.5713130540128148
+    avg_max: 0.5483407986933544
+    mean: -0.009018384786449563
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.2.bn3:
+  inputs:
+    0:
+      min: -1.130544662475586
+      max: 0.7817655205726624
+      avg_min: -0.5713130540128148
+      avg_max: 0.5483407986933544
+      mean: -0.009018384786449563
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -4.4199347496032715
+    max: 4.116314888000488
+    avg_min: -2.9962215128052194
+    avg_max: 2.4798095429059526
+    mean: -0.03226126551978113
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.2.add:
+  inputs:
+    0:
+      min: -4.4199347496032715
+      max: 5.717828273773193
+      avg_min: -2.9962215000205386
+      avg_max: 3.4089321300239193
+      mean: 0.15848075301627385
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+    1:
+      min: 0.0
+      max: 5.6934309005737305
+      avg_min: 0.0
+      avg_max: 3.1026609505881093
+      mean: 0.19074201967592602
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -4.4199347496032715
+    max: 5.717828273773193
+    avg_min: -2.9962215000205386
+    avg_max: 3.4089321300239193
+    mean: 0.15848075301627385
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.4.2.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.717828273773193
+      avg_min: 0.0
+      avg_max: 3.4089321300239193
+      mean: 0.2061517585578002
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: 0.0
+    max: 5.717828273773193
+    avg_min: 0.0
+    avg_max: 3.4089321300239193
+    mean: 0.2061517585578002
+    std: 0
+    b: 0
+    shape: (10, 256, 75, 75)
+    total_numel: 712800000
+feature_extractor.feature_extractor.5.0.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.717828273773193
+      avg_min: 0.0
+      avg_max: 3.4089321300239193
+      mean: 0.2061517585578002
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -2.355072259902954
+    max: 1.9997299909591675
+    avg_min: -1.8005588711527725
+    avg_max: 1.3517659171789775
+    mean: -0.1333672087191358
+    std: 0
+    b: 0
+    shape: (10, 128, 75, 75)
+    total_numel: 356400000
+feature_extractor.feature_extractor.5.0.bn1:
+  inputs:
+    0:
+      min: -2.355072259902954
+      max: 1.9997299909591675
+      avg_min: -1.8005588711527725
+      avg_max: 1.3517659171789775
+      mean: -0.1333672087191358
+      std: 0
+      b: 0
+      shape: (10, 128, 75, 75)
+      total_numel: 356400000
+  output:
+    min: -3.5551493167877197
+    max: 4.661953926086426
+    avg_min: -2.811126525628342
+    avg_max: 2.511507994904727
+    mean: -0.13060491714015157
+    std: 0
+    b: 0
+    shape: (10, 128, 75, 75)
+    total_numel: 356400000
+feature_extractor.feature_extractor.5.0.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.661953926086426
+      avg_min: 0.0
+      avg_max: 2.511507994904727
+      mean: 0.06703227246422556
+      std: 0
+      b: 0
+      shape: (10, 128, 75, 75)
+      total_numel: 356400000
+  output:
+    min: 0.0
+    max: 4.661953926086426
+    avg_min: 0.0
+    avg_max: 2.511507994904727
+    mean: 0.06703227246422556
+    std: 0
+    b: 0
+    shape: (10, 128, 75, 75)
+    total_numel: 356400000
+feature_extractor.feature_extractor.5.0.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.661953926086426
+      avg_min: 0.0
+      avg_max: 2.511507994904727
+      mean: 0.06703227246422556
+      std: 0
+      b: 0
+      shape: (10, 128, 75, 75)
+      total_numel: 356400000
+  output:
+    min: -2.6558408737182617
+    max: 1.8058527708053589
+    avg_min: -1.6332929183113163
+    avg_max: 1.164418180783797
+    mean: -0.07153498453386664
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.0.bn2:
+  inputs:
+    0:
+      min: -2.6558408737182617
+      max: 1.8058527708053589
+      avg_min: -1.6332929183113163
+      avg_max: 1.164418180783797
+      mean: -0.07153498453386664
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -3.3255653381347656
+    max: 3.3108038902282715
+    avg_min: -2.1611412820396976
+    avg_max: 2.146634369091453
+    mean: 0.016274867936651515
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.0.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.3108038902282715
+      avg_min: 0.0
+      avg_max: 2.146634369091453
+      mean: 0.13133214291296366
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: 0.0
+    max: 3.3108038902282715
+    avg_min: 0.0
+    avg_max: 2.146634369091453
+    mean: 0.13133214291296366
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.0.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.3108038902282715
+      avg_min: 0.0
+      avg_max: 2.146634369091453
+      mean: 0.13133214291296366
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -1.0295807123184204
+    max: 1.25701904296875
+    avg_min: -0.6740623857506474
+    avg_max: 0.8135741423197147
+    mean: -0.01005774423563006
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.0.bn3:
+  inputs:
+    0:
+      min: -1.0295807123184204
+      max: 1.25701904296875
+      avg_min: -0.6740623857506474
+      avg_max: 0.8135741423197147
+      mean: -0.01005774423563006
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -4.597019195556641
+    max: 5.308523178100586
+    avg_min: -2.6992232070805655
+    avg_max: 3.4996814285045863
+    mean: 0.012509766218461395
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.0.downsample.0:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.717828273773193
+      avg_min: 0.0
+      avg_max: 3.4089321300239193
+      mean: 0.2061517585578002
+      std: 0
+      b: 0
+      shape: (10, 256, 75, 75)
+      total_numel: 712800000
+  output:
+    min: -1.763586401939392
+    max: 1.4446947574615479
+    avg_min: -1.1835577194375564
+    avg_max: 0.9598069709779526
+    mean: -0.04057851621829062
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.0.downsample.1:
+  inputs:
+    0:
+      min: -1.763586401939392
+      max: 1.4446947574615479
+      avg_min: -1.1835577194375564
+      avg_max: 0.9598069709779526
+      mean: -0.04057851621829062
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -2.9066591262817383
+    max: 4.366353511810303
+    avg_min: -1.8188670817324077
+    avg_max: 2.3348750854385867
+    mean: 0.01341642030034796
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.0.add:
+  inputs:
+    0:
+      min: -4.801499843597412
+      max: 5.543492317199707
+      avg_min: -2.889047674334311
+      avg_max: 3.540313550458747
+      mean: 0.025926186380050394
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+    1:
+      min: -2.9066591262817383
+      max: 4.366353511810303
+      avg_min: -1.8188670817324077
+      avg_max: 2.3348750854385867
+      mean: 0.01341642030034796
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -4.801499843597412
+    max: 5.543492317199707
+    avg_min: -2.889047674334311
+    avg_max: 3.540313550458747
+    mean: 0.025926186380050394
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.0.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.543492317199707
+      avg_min: 0.0
+      avg_max: 3.540313550458747
+      mean: 0.13315828800961924
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: 0.0
+    max: 5.543492317199707
+    avg_min: 0.0
+    avg_max: 3.540313550458747
+    mean: 0.13315828800961924
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.1.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.543492317199707
+      avg_min: 0.0
+      avg_max: 3.540313550458747
+      mean: 0.13315828800961924
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -2.184739351272583
+    max: 2.1247315406799316
+    avg_min: -1.3404733267093722
+    avg_max: 1.3194737632732423
+    mean: -0.04804306480706367
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.1.bn1:
+  inputs:
+    0:
+      min: -2.184739351272583
+      max: 2.1247315406799316
+      avg_min: -1.3404733267093722
+      avg_max: 1.3194737632732423
+      mean: -0.04804306480706367
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -1.6236183643341064
+    max: 1.7939742803573608
+    avg_min: -1.1689340725247763
+    avg_max: 1.0368155796151874
+    mean: 0.04376431868643968
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.1.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 1.7939742803573608
+      avg_min: 0.0
+      avg_max: 1.0368155796151874
+      mean: 0.11174735270448709
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: 0.0
+    max: 1.7939742803573608
+    avg_min: 0.0
+    avg_max: 1.0368155796151874
+    mean: 0.11174735270448709
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.1.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 1.7939742803573608
+      avg_min: 0.0
+      avg_max: 1.0368155796151874
+      mean: 0.11174735270448709
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -1.8726723194122314
+    max: 1.7875359058380127
+    avg_min: -1.1691644991530268
+    avg_max: 1.100192404067049
+    mean: -0.0054682585691351
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.1.bn2:
+  inputs:
+    0:
+      min: -1.8726723194122314
+      max: 1.7875359058380127
+      avg_min: -1.1691644991530268
+      avg_max: 1.100192404067049
+      mean: -0.0054682585691351
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -2.9221811294555664
+    max: 2.739992380142212
+    avg_min: -1.7859403049519968
+    avg_max: 1.7770868449772395
+    mean: -0.005293284901081238
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.1.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.739992380142212
+      avg_min: 0.0
+      avg_max: 1.7770868449772395
+      mean: 0.09669643549290843
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: 0.0
+    max: 2.739992380142212
+    avg_min: 0.0
+    avg_max: 1.7770868449772395
+    mean: 0.09669643549290843
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.1.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.739992380142212
+      avg_min: 0.0
+      avg_max: 1.7770868449772395
+      mean: 0.09669643549290843
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -1.0328748226165771
+    max: 0.7240278720855713
+    avg_min: -0.5906400823490613
+    avg_max: 0.646914522547163
+    mean: -0.018319328267758624
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.1.bn3:
+  inputs:
+    0:
+      min: -1.0328748226165771
+      max: 0.7240278720855713
+      avg_min: -0.5906400823490613
+      avg_max: 0.646914522547163
+      mean: -0.018319328267758624
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -4.261218547821045
+    max: 3.5653140544891357
+    avg_min: -2.411627230336737
+    avg_max: 2.9381140382911584
+    mean: -0.04899984360968694
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.1.add:
+  inputs:
+    0:
+      min: -4.261218547821045
+      max: 5.524881839752197
+      avg_min: -2.4116271497076016
+      avg_max: 3.6437326925560156
+      mean: 0.08415844474149278
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+    1:
+      min: 0.0
+      max: 5.543492317199707
+      avg_min: 0.0
+      avg_max: 3.540313550458747
+      mean: 0.13315828800961924
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -4.261218547821045
+    max: 5.524881839752197
+    avg_min: -2.4116271497076016
+    avg_max: 3.6437326925560156
+    mean: 0.08415844474149278
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.1.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.524881839752197
+      avg_min: 0.0
+      avg_max: 3.6437326925560156
+      mean: 0.13261508946453585
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: 0.0
+    max: 5.524881839752197
+    avg_min: 0.0
+    avg_max: 3.6437326925560156
+    mean: 0.13261508946453585
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.2.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.524881839752197
+      avg_min: 0.0
+      avg_max: 3.6437326925560156
+      mean: 0.13261508946453585
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -1.7018837928771973
+    max: 1.8087984323501587
+    avg_min: -1.268131877134191
+    avg_max: 1.1103419861523707
+    mean: -0.04258727839485467
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.2.bn1:
+  inputs:
+    0:
+      min: -1.7018837928771973
+      max: 1.8087984323501587
+      avg_min: -1.268131877134191
+      avg_max: 1.1103419861523707
+      mean: -0.04258727839485467
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -1.9892610311508179
+    max: 2.9668281078338623
+    avg_min: -1.4220038467612721
+    avg_max: 1.5546649745417105
+    mean: -0.0032723469183692407
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.2.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.9668281078338623
+      avg_min: 0.0
+      avg_max: 1.5546649745417105
+      mean: 0.10188178752471258
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: 0.0
+    max: 2.9668281078338623
+    avg_min: 0.0
+    avg_max: 1.5546649745417105
+    mean: 0.10188178752471258
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.2.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.9668281078338623
+      avg_min: 0.0
+      avg_max: 1.5546649745417105
+      mean: 0.10188178752471258
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -1.4153642654418945
+    max: 1.4233816862106323
+    avg_min: -1.0195368030556693
+    avg_max: 1.0348967432923233
+    mean: -0.02285603070926872
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.2.bn2:
+  inputs:
+    0:
+      min: -1.4153642654418945
+      max: 1.4233816862106323
+      avg_min: -1.0195368030556693
+      avg_max: 1.0348967432923233
+      mean: -0.02285603070926872
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -2.5445313453674316
+    max: 3.151158332824707
+    avg_min: -1.7449658905876055
+    avg_max: 1.5000976698965967
+    mean: -0.034150769044164205
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.2.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.151158332824707
+      avg_min: 0.0
+      avg_max: 1.5000976698965967
+      mean: 0.09657855279771398
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: 0.0
+    max: 3.151158332824707
+    avg_min: 0.0
+    avg_max: 1.5000976698965967
+    mean: 0.09657855279771398
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.2.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.151158332824707
+      avg_min: 0.0
+      avg_max: 1.5000976698965967
+      mean: 0.09657855279771398
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -0.8368865251541138
+    max: 0.6476385593414307
+    avg_min: -0.4347474942883477
+    avg_max: 0.4338453317059569
+    mean: -0.004908276567555436
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.2.bn3:
+  inputs:
+    0:
+      min: -0.8368865251541138
+      max: 0.6476385593414307
+      avg_min: -0.4347474942883477
+      avg_max: 0.4338453317059569
+      mean: -0.004908276567555436
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -3.085341691970825
+    max: 3.025117874145508
+    avg_min: -1.8814804608823907
+    avg_max: 1.7965965908064843
+    mean: -0.0992764388024932
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.2.add:
+  inputs:
+    0:
+      min: -3.085341691970825
+      max: 5.4643988609313965
+      avg_min: -1.8666478201840202
+      avg_max: 3.5790531552080966
+      mean: 0.03333865081147537
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+    1:
+      min: 0.0
+      max: 5.524881839752197
+      avg_min: 0.0
+      avg_max: 3.6437326925560156
+      mean: 0.13261508946453585
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -3.085341691970825
+    max: 5.4643988609313965
+    avg_min: -1.8666478201840202
+    avg_max: 3.5790531552080966
+    mean: 0.03333865081147537
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.2.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.4643988609313965
+      avg_min: 0.0
+      avg_max: 3.5790531552080966
+      mean: 0.11837043319245738
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: 0.0
+    max: 5.4643988609313965
+    avg_min: 0.0
+    avg_max: 3.5790531552080966
+    mean: 0.11837043319245738
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.3.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.4643988609313965
+      avg_min: 0.0
+      avg_max: 3.5790531552080966
+      mean: 0.11837043319245738
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -1.2854058742523193
+    max: 1.8961821794509888
+    avg_min: -0.9827436030573998
+    avg_max: 1.2737658020097937
+    mean: -0.06631955451232042
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.3.bn1:
+  inputs:
+    0:
+      min: -1.2854058742523193
+      max: 1.8961821794509888
+      avg_min: -0.9827436030573998
+      avg_max: 1.2737658020097937
+      mean: -0.06631955451232042
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -2.72346830368042
+    max: 3.13346529006958
+    avg_min: -1.8069104935919265
+    avg_max: 2.0988866269916775
+    mean: -0.05077877987704969
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.3.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.13346529006958
+      avg_min: 0.0
+      avg_max: 2.0988866269916775
+      mean: 0.08059416982569154
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: 0.0
+    max: 3.13346529006958
+    avg_min: 0.0
+    avg_max: 2.0988866269916775
+    mean: 0.08059416982569154
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.3.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.13346529006958
+      avg_min: 0.0
+      avg_max: 2.0988866269916775
+      mean: 0.08059416982569154
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -1.1163774728775024
+    max: 1.6149851083755493
+    avg_min: -0.8612035321002531
+    avg_max: 0.973672748274044
+    mean: -0.0650391429375013
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.3.bn2:
+  inputs:
+    0:
+      min: -1.1163774728775024
+      max: 1.6149851083755493
+      avg_min: -0.8612035321002531
+      avg_max: 0.973672748274044
+      mean: -0.0650391429375013
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -2.614180326461792
+    max: 2.7252793312072754
+    avg_min: -1.861778027743056
+    avg_max: 1.7879904523345722
+    mean: -0.10951510265833543
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.3.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.7252793312072754
+      avg_min: 0.0
+      avg_max: 1.7879904523345722
+      mean: 0.07172331775708086
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: 0.0
+    max: 2.7252793312072754
+    avg_min: 0.0
+    avg_max: 1.7879904523345722
+    mean: 0.07172331775708086
+    std: 0
+    b: 0
+    shape: (10, 128, 38, 38)
+    total_numel: 91491840
+feature_extractor.feature_extractor.5.3.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.7252793312072754
+      avg_min: 0.0
+      avg_max: 1.7879904523345722
+      mean: 0.07172331775708086
+      std: 0
+      b: 0
+      shape: (10, 128, 38, 38)
+      total_numel: 91491840
+  output:
+    min: -0.5498688220977783
+    max: 0.501127302646637
+    avg_min: -0.3923794000261169
+    avg_max: 0.3555618982594628
+    mean: -0.00667092136965951
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.3.bn3:
+  inputs:
+    0:
+      min: -0.5498688220977783
+      max: 0.501127302646637
+      avg_min: -0.3923794000261169
+      avg_max: 0.3555618982594628
+      mean: -0.00667092136965951
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -2.3926799297332764
+    max: 3.3380825519561768
+    avg_min: -1.7293103267492322
+    avg_max: 1.9593075109077092
+    mean: -0.0885555097727841
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.3.add:
+  inputs:
+    0:
+      min: -2.3926799297332764
+      max: 5.0562310218811035
+      avg_min: -1.6921004877473331
+      avg_max: 3.5563040565672437
+      mean: 0.02981492329158808
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+    1:
+      min: 0.0
+      max: 5.4643988609313965
+      avg_min: 0.0
+      avg_max: 3.5790531552080966
+      mean: 0.11837043319245738
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -2.3926799297332764
+    max: 5.0562310218811035
+    avg_min: -1.6921004877473331
+    avg_max: 3.5563040565672437
+    mean: 0.02981492329158808
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.5.3.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.0562310218811035
+      avg_min: 0.0
+      avg_max: 3.5563040565672437
+      mean: 0.11143483841017954
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: 0.0
+    max: 5.0562310218811035
+    avg_min: 0.0
+    avg_max: 3.5563040565672437
+    mean: 0.11143483841017954
+    std: 0
+    b: 0
+    shape: (10, 512, 38, 38)
+    total_numel: 365967360
+feature_extractor.feature_extractor.6.0.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.0562310218811035
+      avg_min: 0.0
+      avg_max: 3.5563040565672437
+      mean: 0.11143483841017954
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -1.8762407302856445
+    max: 1.946054458618164
+    avg_min: -1.2117257303418834
+    avg_max: 1.2862434923228812
+    mean: -0.1137000686003801
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.0.bn1:
+  inputs:
+    0:
+      min: -1.8762407302856445
+      max: 1.946054458618164
+      avg_min: -1.2117257303418834
+      avg_max: 1.2862434923228812
+      mean: -0.1137000686003801
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -4.048807144165039
+    max: 4.767443656921387
+    avg_min: -2.5616208944913677
+    avg_max: 2.7261878722581456
+    mean: -0.234877272593381
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.0.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.767443656921387
+      avg_min: 0.0
+      avg_max: 2.7261878722581456
+      mean: 0.04274375128016881
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 4.767443656921387
+    avg_min: 0.0
+    avg_max: 2.7261878722581456
+    mean: 0.04274375128016881
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.0.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.767443656921387
+      avg_min: 0.0
+      avg_max: 2.7261878722581456
+      mean: 0.04274375128016881
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -2.056532382965088
+    max: 1.3171005249023438
+    avg_min: -1.2125217928925967
+    avg_max: 0.8773210833538284
+    mean: -0.061027052043657666
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.0.bn2:
+  inputs:
+    0:
+      min: -2.056532382965088
+      max: 1.3171005249023438
+      avg_min: -1.2125217928925967
+      avg_max: 0.8773210833538284
+      mean: -0.061027052043657666
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -3.460901975631714
+    max: 3.6101303100585938
+    avg_min: -2.3696317376645215
+    avg_max: 1.9334701728937242
+    mean: -0.04708008920009971
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.0.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.6101303100585938
+      avg_min: 0.0
+      avg_max: 1.9334701728937242
+      mean: 0.08724660325582043
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 3.6101303100585938
+    avg_min: 0.0
+    avg_max: 1.9334701728937242
+    mean: 0.08724660325582043
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.0.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.6101303100585938
+      avg_min: 0.0
+      avg_max: 1.9334701728937242
+      mean: 0.08724660325582043
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -0.6794434785842896
+    max: 0.6808527112007141
+    avg_min: -0.4452663350553324
+    avg_max: 0.4792338982353003
+    mean: -0.026127694019283578
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.0.bn3:
+  inputs:
+    0:
+      min: -0.6794434785842896
+      max: 0.6808527112007141
+      avg_min: -0.4452663350553324
+      avg_max: 0.4792338982353003
+      mean: -0.026127694019283578
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -3.5203330516815186
+    max: 4.804959297180176
+    avg_min: -2.2615173942964604
+    avg_max: 2.543105810059175
+    mean: -0.0783361548452026
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.0.downsample.0:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.0562310218811035
+      avg_min: 0.0
+      avg_max: 3.5563040565672437
+      mean: 0.11143483841017954
+      std: 0
+      b: 0
+      shape: (10, 512, 38, 38)
+      total_numel: 365967360
+  output:
+    min: -1.2791465520858765
+    max: 1.2532440423965454
+    avg_min: -0.9488364849961669
+    avg_max: 0.850051594298091
+    mean: -0.029126013664510956
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.0.downsample.1:
+  inputs:
+    0:
+      min: -1.2791465520858765
+      max: 1.2532440423965454
+      avg_min: -0.9488364849961669
+      avg_max: 0.850051594298091
+      mean: -0.029126013664510956
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -3.146193742752075
+    max: 3.327223300933838
+    avg_min: -1.8859647537526658
+    avg_max: 2.0633911383472205
+    mean: -0.07725822973666287
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.0.add:
+  inputs:
+    0:
+      min: -4.59955358505249
+      max: 5.949373722076416
+      avg_min: -3.1064891412259827
+      avg_max: 3.1611465295204297
+      mean: -0.15559438517959637
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+    1:
+      min: -3.146193742752075
+      max: 3.327223300933838
+      avg_min: -1.8859647537526658
+      avg_max: 2.0633911383472205
+      mean: -0.07725822973666287
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -4.59955358505249
+    max: 5.949373722076416
+    avg_min: -3.1064891412259827
+    avg_max: 3.1611465295204297
+    mean: -0.15559438517959637
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.0.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.949373722076416
+      avg_min: 0.0
+      avg_max: 3.1611465295204297
+      mean: 0.06209031694793765
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: 0.0
+    max: 5.949373722076416
+    avg_min: 0.0
+    avg_max: 3.1611465295204297
+    mean: 0.06209031694793765
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.1.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.949373722076416
+      avg_min: 0.0
+      avg_max: 3.1611465295204297
+      mean: 0.06209031694793765
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -1.4502196311950684
+    max: 2.0881619453430176
+    avg_min: -1.0237698249194769
+    avg_max: 1.144406764931763
+    mean: -0.05822184426672641
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.1.bn1:
+  inputs:
+    0:
+      min: -1.4502196311950684
+      max: 2.0881619453430176
+      avg_min: -1.0237698249194769
+      avg_max: 1.144406764931763
+      mean: -0.05822184426672641
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -3.074197292327881
+    max: 5.708164691925049
+    avg_min: -1.7305211312523214
+    avg_max: 2.341800247967511
+    mean: -0.07484678970072632
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.1.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.708164691925049
+      avg_min: 0.0
+      avg_max: 2.341800247967511
+      mean: 0.06429908598952647
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 5.708164691925049
+    avg_min: 0.0
+    avg_max: 2.341800247967511
+    mean: 0.06429908598952647
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.1.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.708164691925049
+      avg_min: 0.0
+      avg_max: 2.341800247967511
+      mean: 0.06429908598952647
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -3.4587557315826416
+    max: 1.7195850610733032
+    avg_min: -1.3611117959116699
+    avg_max: 1.129990256414607
+    mean: -0.06805934546833631
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.1.bn2:
+  inputs:
+    0:
+      min: -3.4587557315826416
+      max: 1.7195850610733032
+      avg_min: -1.3611117959116699
+      avg_max: 1.129990256414607
+      mean: -0.06805934546833631
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -7.492094039916992
+    max: 2.5580427646636963
+    avg_min: -2.6051460030639
+    avg_max: 1.6539653876966474
+    mean: -0.12179793984906195
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.1.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.5580427646636963
+      avg_min: 0.0
+      avg_max: 1.6539653876966474
+      mean: 0.057971183891918666
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 2.5580427646636963
+    avg_min: 0.0
+    avg_max: 1.6539653876966474
+    mean: 0.057971183891918666
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.1.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 2.5580427646636963
+      avg_min: 0.0
+      avg_max: 1.6539653876966474
+      mean: 0.057971183891918666
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -0.7241339683532715
+    max: 1.0592727661132812
+    avg_min: -0.40822251770070106
+    avg_max: 0.5565203907392748
+    mean: -0.018257417051482407
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.1.bn3:
+  inputs:
+    0:
+      min: -0.7241339683532715
+      max: 1.0592727661132812
+      avg_min: -0.40822251770070106
+      avg_max: 0.5565203907392748
+      mean: -0.018257417051482407
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -4.182036399841309
+    max: 5.552127361297607
+    avg_min: -2.3913489829666457
+    avg_max: 2.897553683103413
+    mean: -0.11939692748487188
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.1.add:
+  inputs:
+    0:
+      min: -4.182036399841309
+      max: 7.565534591674805
+      avg_min: -2.3565678268645778
+      avg_max: 4.080457687293283
+      mean: -0.05730661053693422
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+    1:
+      min: 0.0
+      max: 5.949373722076416
+      avg_min: 0.0
+      avg_max: 3.1611465295204297
+      mean: 0.06209031694793765
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -4.182036399841309
+    max: 7.565534591674805
+    avg_min: -2.3565678268645778
+    avg_max: 4.080457687293283
+    mean: -0.05730661053693422
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.1.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 7.565534591674805
+      avg_min: 0.0
+      avg_max: 4.080457687293283
+      mean: 0.06331715595142146
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: 0.0
+    max: 7.565534591674805
+    avg_min: 0.0
+    avg_max: 4.080457687293283
+    mean: 0.06331715595142146
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.2.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 7.565534591674805
+      avg_min: 0.0
+      avg_max: 4.080457687293283
+      mean: 0.06331715595142146
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -0.9431867599487305
+    max: 1.2188819646835327
+    avg_min: -0.6901635498140376
+    avg_max: 0.7624660582232357
+    mean: -0.0537631737158199
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.2.bn1:
+  inputs:
+    0:
+      min: -0.9431867599487305
+      max: 1.2188819646835327
+      avg_min: -0.6901635498140376
+      avg_max: 0.7624660582232357
+      mean: -0.0537631737158199
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -2.5987823009490967
+    max: 3.1466310024261475
+    avg_min: -1.6049705405870902
+    avg_max: 1.7683751885474153
+    mean: -0.10028297827571289
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.2.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.1466310024261475
+      avg_min: 0.0
+      avg_max: 1.7683751885474153
+      mean: 0.054872646122047605
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 3.1466310024261475
+    avg_min: 0.0
+    avg_max: 1.7683751885474153
+    mean: 0.054872646122047605
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.2.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.1466310024261475
+      avg_min: 0.0
+      avg_max: 1.7683751885474153
+      mean: 0.054872646122047605
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -1.243131399154663
+    max: 1.8824951648712158
+    avg_min: -0.8808104549058371
+    avg_max: 0.9261409201479603
+    mean: -0.0654102141103513
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.2.bn2:
+  inputs:
+    0:
+      min: -1.243131399154663
+      max: 1.8824951648712158
+      avg_min: -0.8808104549058371
+      avg_max: 0.9261409201479603
+      mean: -0.0654102141103513
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -2.5506644248962402
+    max: 3.255100727081299
+    avg_min: -1.8665378108323833
+    avg_max: 1.4968494866247928
+    mean: -0.13614604549364737
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.2.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.255100727081299
+      avg_min: 0.0
+      avg_max: 1.4968494866247928
+      mean: 0.050660416520820324
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 3.255100727081299
+    avg_min: 0.0
+    avg_max: 1.4968494866247928
+    mean: 0.050660416520820324
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.2.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.255100727081299
+      avg_min: 0.0
+      avg_max: 1.4968494866247928
+      mean: 0.050660416520820324
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -0.6551401019096375
+    max: 0.46786606311798096
+    avg_min: -0.3482260636203658
+    avg_max: 0.31354812431833967
+    mean: -0.014515165753101588
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.2.bn3:
+  inputs:
+    0:
+      min: -0.6551401019096375
+      max: 0.46786606311798096
+      avg_min: -0.3482260636203658
+      avg_max: 0.31354812431833967
+      mean: -0.014515165753101588
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -3.7712180614471436
+    max: 2.3813395500183105
+    avg_min: -1.9498813232752843
+    avg_max: 1.5821924647124992
+    mean: -0.1194604468961385
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.2.add:
+  inputs:
+    0:
+      min: -3.0191562175750732
+      max: 5.632544994354248
+      avg_min: -1.69458650575116
+      avg_max: 3.1818001029646528
+      mean: -0.05614329137166768
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+    1:
+      min: 0.0
+      max: 7.565534591674805
+      avg_min: 0.0
+      avg_max: 4.080457687293283
+      mean: 0.06331715595142146
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -3.0191562175750732
+    max: 5.632544994354248
+    avg_min: -1.69458650575116
+    avg_max: 3.1818001029646528
+    mean: -0.05614329137166768
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.2.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.632544994354248
+      avg_min: 0.0
+      avg_max: 3.1818001029646528
+      mean: 0.058017548298228014
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: 0.0
+    max: 5.632544994354248
+    avg_min: 0.0
+    avg_max: 3.1818001029646528
+    mean: 0.058017548298228014
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.3.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.632544994354248
+      avg_min: 0.0
+      avg_max: 3.1818001029646528
+      mean: 0.058017548298228014
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -1.0730605125427246
+    max: 1.3848997354507446
+    avg_min: -0.7247917292547199
+    avg_max: 0.8229552660166995
+    mean: -0.05435384212781982
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.3.bn1:
+  inputs:
+    0:
+      min: -1.0730605125427246
+      max: 1.3848997354507446
+      avg_min: -0.7247917292547199
+      avg_max: 0.8229552660166995
+      mean: -0.05435384212781982
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -2.8132834434509277
+    max: 4.4579596519470215
+    avg_min: -1.9335916590548996
+    avg_max: 2.2723408645929144
+    mean: -0.15507855980653576
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.3.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.4579596519470215
+      avg_min: 0.0
+      avg_max: 2.2723408645929144
+      mean: 0.04660970721541943
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 4.4579596519470215
+    avg_min: 0.0
+    avg_max: 2.2723408645929144
+    mean: 0.04660970721541943
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.3.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.4579596519470215
+      avg_min: 0.0
+      avg_max: 2.2723408645929144
+      mean: 0.04660970721541943
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -1.8265293836593628
+    max: 1.5192757844924927
+    avg_min: -1.0109024526264538
+    avg_max: 1.0080590424453997
+    mean: -0.06837999586219932
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.3.bn2:
+  inputs:
+    0:
+      min: -1.8265293836593628
+      max: 1.5192757844924927
+      avg_min: -1.0109024526264538
+      avg_max: 1.0080590424453997
+      mean: -0.06837999586219932
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -4.329031944274902
+    max: 3.399388313293457
+    avg_min: -2.4426010860981955
+    avg_max: 1.657511018406455
+    mean: -0.12970148536607198
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.3.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.399388313293457
+      avg_min: 0.0
+      avg_max: 1.657511018406455
+      mean: 0.05293016764869413
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 3.399388313293457
+    avg_min: 0.0
+    avg_max: 1.657511018406455
+    mean: 0.05293016764869413
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.3.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 3.399388313293457
+      avg_min: 0.0
+      avg_max: 1.657511018406455
+      mean: 0.05293016764869413
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -0.5177226066589355
+    max: 0.5917109251022339
+    avg_min: -0.3484676197388705
+    avg_max: 0.3289621111059264
+    mean: -0.017127020712140836
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.3.bn3:
+  inputs:
+    0:
+      min: -0.5177226066589355
+      max: 0.5917109251022339
+      avg_min: -0.3484676197388705
+      avg_max: 0.3289621111059264
+      mean: -0.017127020712140836
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -3.1317505836486816
+    max: 3.072808265686035
+    avg_min: -2.0739357526911384
+    avg_max: 2.0409519100688702
+    mean: -0.12237231330548166
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.3.add:
+  inputs:
+    0:
+      min: -3.1317505836486816
+      max: 6.132623672485352
+      avg_min: -2.0348866521528213
+      avg_max: 3.2466128720516343
+      mean: -0.06435476428143758
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+    1:
+      min: 0.0
+      max: 5.632544994354248
+      avg_min: 0.0
+      avg_max: 3.1818001029646528
+      mean: 0.058017548298228014
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -3.1317505836486816
+    max: 6.132623672485352
+    avg_min: -2.0348866521528213
+    avg_max: 3.2466128720516343
+    mean: -0.06435476428143758
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.3.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 6.132623672485352
+      avg_min: 0.0
+      avg_max: 3.2466128720516343
+      mean: 0.05754303633457913
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: 0.0
+    max: 6.132623672485352
+    avg_min: 0.0
+    avg_max: 3.2466128720516343
+    mean: 0.05754303633457913
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.4.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 6.132623672485352
+      avg_min: 0.0
+      avg_max: 3.2466128720516343
+      mean: 0.05754303633457913
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -1.1459100246429443
+    max: 1.4777308702468872
+    avg_min: -0.7710672614271847
+    avg_max: 0.781823527619621
+    mean: -0.0629706349529368
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.4.bn1:
+  inputs:
+    0:
+      min: -1.1459100246429443
+      max: 1.4777308702468872
+      avg_min: -0.7710672614271847
+      avg_max: 0.781823527619621
+      mean: -0.0629706349529368
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -3.727896213531494
+    max: 4.087076663970947
+    avg_min: -2.2680496097618486
+    avg_max: 2.08403081030309
+    mean: -0.16619258886912758
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.4.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.087076663970947
+      avg_min: 0.0
+      avg_max: 2.08403081030309
+      mean: 0.048464748843995265
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 4.087076663970947
+    avg_min: 0.0
+    avg_max: 2.08403081030309
+    mean: 0.048464748843995265
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.4.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.087076663970947
+      avg_min: 0.0
+      avg_max: 2.08403081030309
+      mean: 0.048464748843995265
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -1.4279885292053223
+    max: 1.4488474130630493
+    avg_min: -0.9324418134127551
+    avg_max: 0.8572223114807447
+    mean: -0.08851043522706505
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.4.bn2:
+  inputs:
+    0:
+      min: -1.4279885292053223
+      max: 1.4488474130630493
+      avg_min: -0.9324418134127551
+      avg_max: 0.8572223114807447
+      mean: -0.08851043522706505
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -3.8124911785125732
+    max: 4.229000091552734
+    avg_min: -2.1914251846792907
+    avg_max: 1.8081765016220206
+    mean: -0.16574030809742157
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.4.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.229000091552734
+      avg_min: 0.0
+      avg_max: 1.8081765016220206
+      mean: 0.04745971390214963
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 4.229000091552734
+    avg_min: 0.0
+    avg_max: 1.8081765016220206
+    mean: 0.04745971390214963
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.4.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 4.229000091552734
+      avg_min: 0.0
+      avg_max: 1.8081765016220206
+      mean: 0.04745971390214963
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -0.661896288394928
+    max: 0.7642326354980469
+    avg_min: -0.34348677885922957
+    avg_max: 0.3961842359935113
+    mean: -0.017113612220431354
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.4.bn3:
+  inputs:
+    0:
+      min: -0.661896288394928
+      max: 0.7642326354980469
+      avg_min: -0.34348677885922957
+      avg_max: 0.3961842359935113
+      mean: -0.017113612220431354
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -5.418954372406006
+    max: 4.142091274261475
+    avg_min: -2.3421527537396796
+    avg_max: 2.2721783695861113
+    mean: -0.1329455928972737
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.4.add:
+  inputs:
+    0:
+      min: -5.418954372406006
+      max: 5.837310791015625
+      avg_min: -2.2986132326208244
+      avg_max: 4.021476966070208
+      mean: -0.07540255622113406
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+    1:
+      min: 0.0
+      max: 6.132623672485352
+      avg_min: 0.0
+      avg_max: 3.2466128720516343
+      mean: 0.05754303633457913
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -5.418954372406006
+    max: 5.837310791015625
+    avg_min: -2.2986132326208244
+    avg_max: 4.021476966070208
+    mean: -0.07540255622113406
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.4.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.837310791015625
+      avg_min: 0.0
+      avg_max: 4.021476966070208
+      mean: 0.06130438193313196
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: 0.0
+    max: 5.837310791015625
+    avg_min: 0.0
+    avg_max: 4.021476966070208
+    mean: 0.06130438193313196
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.5.conv1:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.837310791015625
+      avg_min: 0.0
+      avg_max: 4.021476966070208
+      mean: 0.06130438193313196
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -1.822029948234558
+    max: 2.241243600845337
+    avg_min: -1.0652338124611087
+    avg_max: 1.127502817247623
+    mean: -0.06910313591559097
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.5.bn1:
+  inputs:
+    0:
+      min: -1.822029948234558
+      max: 2.241243600845337
+      avg_min: -1.0652338124611087
+      avg_max: 1.127502817247623
+      mean: -0.06910313591559097
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -7.069520950317383
+    max: 6.288969039916992
+    avg_min: -3.4449183298801422
+    avg_max: 2.228620197495361
+    mean: -0.1993494494973541
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.5.relu1:
+  inputs:
+    0:
+      min: 0.0
+      max: 6.288969039916992
+      avg_min: 0.0
+      avg_max: 2.228620197495361
+      mean: 0.04698656689970931
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 6.288969039916992
+    avg_min: 0.0
+    avg_max: 2.228620197495361
+    mean: 0.04698656689970931
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.5.conv2:
+  inputs:
+    0:
+      min: 0.0
+      max: 6.288969039916992
+      avg_min: 0.0
+      avg_max: 2.228620197495361
+      mean: 0.04698656689970931
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -3.1822502613067627
+    max: 2.325915575027466
+    avg_min: -1.2540834387276285
+    avg_max: 1.1381591477795328
+    mean: -0.08405642138413658
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.5.bn2:
+  inputs:
+    0:
+      min: -3.1822502613067627
+      max: 2.325915575027466
+      avg_min: -1.2540834387276285
+      avg_max: 1.1381591477795328
+      mean: -0.08405642138413658
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -11.967406272888184
+    max: 6.741757869720459
+    avg_min: -2.9196961399970816
+    avg_max: 2.22942229661498
+    mean: -0.1301901561658395
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.5.relu2:
+  inputs:
+    0:
+      min: 0.0
+      max: 6.741757869720459
+      avg_min: 0.0
+      avg_max: 2.22942229661498
+      mean: 0.058490856175670965
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 6.741757869720459
+    avg_min: 0.0
+    avg_max: 2.22942229661498
+    mean: 0.058490856175670965
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+feature_extractor.feature_extractor.6.5.conv3:
+  inputs:
+    0:
+      min: 0.0
+      max: 6.741757869720459
+      avg_min: 0.0
+      avg_max: 2.22942229661498
+      mean: 0.058490856175670965
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -1.2468147277832031
+    max: 0.9904329776763916
+    avg_min: -0.5930435267628424
+    avg_max: 0.4395923407080539
+    mean: -0.027129229246701126
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.5.bn3:
+  inputs:
+    0:
+      min: -1.2468147277832031
+      max: 0.9904329776763916
+      avg_min: -0.5930435267628424
+      avg_max: 0.4395923407080539
+      mean: -0.027129229246701126
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -13.918310165405273
+    max: 10.293510437011719
+    avg_min: -4.433075548468478
+    avg_max: 3.4878280014927356
+    mean: -0.10525924463591507
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.5.add:
+  inputs:
+    0:
+      min: -13.918310165405273
+      max: 11.234814643859863
+      avg_min: -4.43141001577364
+      avg_max: 5.312966854791111
+      mean: -0.04395486253200285
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+    1:
+      min: 0.0
+      max: 5.837310791015625
+      avg_min: 0.0
+      avg_max: 4.021476966070208
+      mean: 0.06130438193313196
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -13.918310165405273
+    max: 11.234814643859863
+    avg_min: -4.43141001577364
+    avg_max: 5.312966854791111
+    mean: -0.04395486253200285
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+feature_extractor.feature_extractor.6.5.relu3:
+  inputs:
+    0:
+      min: 0.0
+      max: 11.234814643859863
+      avg_min: 0.0
+      avg_max: 5.312966854791111
+      mean: 0.11034591940794938
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: 0.0
+    max: 11.234814643859863
+    avg_min: 0.0
+    avg_max: 5.312966854791111
+    mean: 0.11034591940794938
+    std: 0
+    b: 0
+    shape: (10, 1024, 38, 38)
+    total_numel: 731934720
+additional_blocks.0.0:
+  inputs:
+    0:
+      min: 0.0
+      max: 11.234814643859863
+      avg_min: 0.0
+      avg_max: 5.312966854791111
+      mean: 0.11034591940794938
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -3.5110628604888916
+    max: 5.399869918823242
+    avg_min: -1.761738554466819
+    avg_max: 2.067855615113609
+    mean: -0.09175944611563178
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+additional_blocks.0.1:
+  inputs:
+    0:
+      min: -3.5110628604888916
+      max: 5.399869918823242
+      avg_min: -1.761738554466819
+      avg_max: 2.067855615113609
+      mean: -0.09175944611563178
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -13.44987678527832
+    max: 18.89635467529297
+    avg_min: -5.609814299151028
+    avg_max: 5.566098663545763
+    mean: -0.030651777464867355
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+additional_blocks.0.2:
+  inputs:
+    0:
+      min: 0.0
+      max: 18.89635467529297
+      avg_min: 0.0
+      avg_max: 5.566098663545763
+      mean: 0.20267644787365738
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: 0.0
+    max: 18.89635467529297
+    avg_min: 0.0
+    avg_max: 5.566098663545763
+    mean: 0.20267644787365738
+    std: 0
+    b: 0
+    shape: (10, 256, 38, 38)
+    total_numel: 182983680
+additional_blocks.0.3:
+  inputs:
+    0:
+      min: 0.0
+      max: 18.89635467529297
+      avg_min: 0.0
+      avg_max: 5.566098663545763
+      mean: 0.20267644787365738
+      std: 0
+      b: 0
+      shape: (10, 256, 38, 38)
+      total_numel: 182983680
+  output:
+    min: -11.304581642150879
+    max: 7.703449726104736
+    avg_min: -4.483163193716241
+    avg_max: 4.3933128441066085
+    mean: -0.22029627912035651
+    std: 0
+    b: 0
+    shape: (10, 512, 19, 19)
+    total_numel: 91491840
+additional_blocks.0.4:
+  inputs:
+    0:
+      min: -11.304581642150879
+      max: 7.703449726104736
+      avg_min: -4.483163193716241
+      avg_max: 4.3933128441066085
+      mean: -0.22029627912035651
+      std: 0
+      b: 0
+      shape: (10, 512, 19, 19)
+      total_numel: 91491840
+  output:
+    min: -15.708664894104004
+    max: 16.542150497436523
+    avg_min: -6.443462741627944
+    avg_max: 8.177799059373166
+    mean: -0.012138221665419236
+    std: 0
+    b: 0
+    shape: (10, 512, 19, 19)
+    total_numel: 91491840
+additional_blocks.0.5:
+  inputs:
+    0:
+      min: 0.0
+      max: 16.542150497436523
+      avg_min: 0.0
+      avg_max: 8.177799059373166
+      mean: 0.21925551178252617
+      std: 0
+      b: 0
+      shape: (10, 512, 19, 19)
+      total_numel: 91491840
+  output:
+    min: 0.0
+    max: 16.542150497436523
+    avg_min: 0.0
+    avg_max: 8.177799059373166
+    mean: 0.21925551178252617
+    std: 0
+    b: 0
+    shape: (10, 512, 19, 19)
+    total_numel: 91491840
+additional_blocks.1.0:
+  inputs:
+    0:
+      min: 0.0
+      max: 16.542150497436523
+      avg_min: 0.0
+      avg_max: 8.177799059373166
+      mean: 0.21925551178252617
+      std: 0
+      b: 0
+      shape: (10, 512, 19, 19)
+      total_numel: 91491840
+  output:
+    min: -5.293322563171387
+    max: 5.016242504119873
+    avg_min: -2.9098741826281316
+    avg_max: 2.532223820788148
+    mean: -0.12071706775639773
+    std: 0
+    b: 0
+    shape: (10, 256, 19, 19)
+    total_numel: 45745920
+additional_blocks.1.1:
+  inputs:
+    0:
+      min: -5.293322563171387
+      max: 5.016242504119873
+      avg_min: -2.9098741826281316
+      avg_max: 2.532223820788148
+      mean: -0.12071706775639773
+      std: 0
+      b: 0
+      shape: (10, 256, 19, 19)
+      total_numel: 45745920
+  output:
+    min: -8.621127128601074
+    max: 11.689159393310547
+    avg_min: -5.010307055350635
+    avg_max: 5.402070808436257
+    mean: -0.06182422465558129
+    std: 0
+    b: 0
+    shape: (10, 256, 19, 19)
+    total_numel: 45745920
+additional_blocks.1.2:
+  inputs:
+    0:
+      min: 0.0
+      max: 11.689159393310547
+      avg_min: 0.0
+      avg_max: 5.402070808436257
+      mean: 0.17984683114909483
+      std: 0
+      b: 0
+      shape: (10, 256, 19, 19)
+      total_numel: 45745920
+  output:
+    min: 0.0
+    max: 11.689159393310547
+    avg_min: 0.0
+    avg_max: 5.402070808436257
+    mean: 0.17984683114909483
+    std: 0
+    b: 0
+    shape: (10, 256, 19, 19)
+    total_numel: 45745920
+additional_blocks.1.3:
+  inputs:
+    0:
+      min: 0.0
+      max: 11.689159393310547
+      avg_min: 0.0
+      avg_max: 5.402070808436257
+      mean: 0.17984683114909483
+      std: 0
+      b: 0
+      shape: (10, 256, 19, 19)
+      total_numel: 45745920
+  output:
+    min: -4.813751220703125
+    max: 6.131096363067627
+    avg_min: -2.569398321364626
+    avg_max: 2.527892380413517
+    mean: -0.1761451046105587
+    std: 0
+    b: 0
+    shape: (10, 512, 10, 10)
+    total_numel: 25344000
+additional_blocks.1.4:
+  inputs:
+    0:
+      min: -4.813751220703125
+      max: 6.131096363067627
+      avg_min: -2.569398321364626
+      avg_max: 2.527892380413517
+      mean: -0.1761451046105587
+      std: 0
+      b: 0
+      shape: (10, 512, 10, 10)
+      total_numel: 25344000
+  output:
+    min: -13.0307035446167
+    max: 19.99512481689453
+    avg_min: -5.898204164283273
+    avg_max: 7.665332181537989
+    mean: -0.04280805343088478
+    std: 0
+    b: 0
+    shape: (10, 512, 10, 10)
+    total_numel: 25344000
+additional_blocks.1.5:
+  inputs:
+    0:
+      min: 0.0
+      max: 19.99512481689453
+      avg_min: 0.0
+      avg_max: 7.665332181537989
+      mean: 0.22684170948375354
+      std: 0
+      b: 0
+      shape: (10, 512, 10, 10)
+      total_numel: 25344000
+  output:
+    min: 0.0
+    max: 19.99512481689453
+    avg_min: 0.0
+    avg_max: 7.665332181537989
+    mean: 0.22684170948375354
+    std: 0
+    b: 0
+    shape: (10, 512, 10, 10)
+    total_numel: 25344000
+additional_blocks.2.0:
+  inputs:
+    0:
+      min: 0.0
+      max: 19.99512481689453
+      avg_min: 0.0
+      avg_max: 7.665332181537989
+      mean: 0.22684170948375354
+      std: 0
+      b: 0
+      shape: (10, 512, 10, 10)
+      total_numel: 25344000
+  output:
+    min: -7.049246311187744
+    max: 4.27646017074585
+    avg_min: -2.605312968164698
+    avg_max: 2.516111588045543
+    mean: -0.17294221172910745
+    std: 0
+    b: 0
+    shape: (10, 128, 10, 10)
+    total_numel: 6336000
+additional_blocks.2.1:
+  inputs:
+    0:
+      min: -7.049246311187744
+      max: 4.27646017074585
+      avg_min: -2.605312968164698
+      avg_max: 2.516111588045543
+      mean: -0.17294221172910745
+      std: 0
+      b: 0
+      shape: (10, 128, 10, 10)
+      total_numel: 6336000
+  output:
+    min: -9.122457504272461
+    max: 8.260001182556152
+    avg_min: -3.7250380891937733
+    avg_max: 5.134371254233828
+    mean: -0.045874349189527104
+    std: 0
+    b: 0
+    shape: (10, 128, 10, 10)
+    total_numel: 6336000
+additional_blocks.2.2:
+  inputs:
+    0:
+      min: 0.0
+      max: 8.260001182556152
+      avg_min: 0.0
+      avg_max: 5.134371254233828
+      mean: 0.2130622336647727
+      std: 0
+      b: 0
+      shape: (10, 128, 10, 10)
+      total_numel: 6336000
+  output:
+    min: 0.0
+    max: 8.260001182556152
+    avg_min: 0.0
+    avg_max: 5.134371254233828
+    mean: 0.2130622336647727
+    std: 0
+    b: 0
+    shape: (10, 128, 10, 10)
+    total_numel: 6336000
+additional_blocks.2.3:
+  inputs:
+    0:
+      min: 0.0
+      max: 8.260001182556152
+      avg_min: 0.0
+      avg_max: 5.134371254233828
+      mean: 0.2130622336647727
+      std: 0
+      b: 0
+      shape: (10, 128, 10, 10)
+      total_numel: 6336000
+  output:
+    min: -4.5714287757873535
+    max: 5.088750839233398
+    avg_min: -2.0984301931072
+    avg_max: 2.3868047773809167
+    mean: -0.09530587429470486
+    std: 0
+    b: 0
+    shape: (10, 256, 5, 5)
+    total_numel: 3168000
+additional_blocks.2.4:
+  inputs:
+    0:
+      min: -4.5714287757873535
+      max: 5.088750839233398
+      avg_min: -2.0984301931072
+      avg_max: 2.3868047773809167
+      mean: -0.09530587429470486
+      std: 0
+      b: 0
+      shape: (10, 256, 5, 5)
+      total_numel: 3168000
+  output:
+    min: -11.054322242736816
+    max: 26.41446304321289
+    avg_min: -5.761508822681996
+    avg_max: 8.778798191628049
+    mean: 0.09067696033824574
+    std: 0
+    b: 0
+    shape: (10, 256, 5, 5)
+    total_numel: 3168000
+additional_blocks.2.5:
+  inputs:
+    0:
+      min: 0.0
+      max: 26.41446304321289
+      avg_min: 0.0
+      avg_max: 8.778798191628049
+      mean: 0.38432117778123026
+      std: 0
+      b: 0
+      shape: (10, 256, 5, 5)
+      total_numel: 3168000
+  output:
+    min: 0.0
+    max: 26.41446304321289
+    avg_min: 0.0
+    avg_max: 8.778798191628049
+    mean: 0.38432117778123026
+    std: 0
+    b: 0
+    shape: (10, 256, 5, 5)
+    total_numel: 3168000
+additional_blocks.3.0:
+  inputs:
+    0:
+      min: 0.0
+      max: 26.41446304321289
+      avg_min: 0.0
+      avg_max: 8.778798191628049
+      mean: 0.38432117778123026
+      std: 0
+      b: 0
+      shape: (10, 256, 5, 5)
+      total_numel: 3168000
+  output:
+    min: -5.4599761962890625
+    max: 3.632141351699829
+    avg_min: -2.7097900058961217
+    avg_max: 2.2057973583571724
+    mean: -0.15993968154444843
+    std: 0
+    b: 0
+    shape: (10, 128, 5, 5)
+    total_numel: 1584000
+additional_blocks.3.1:
+  inputs:
+    0:
+      min: -5.4599761962890625
+      max: 3.632141351699829
+      avg_min: -2.7097900058961217
+      avg_max: 2.2057973583571724
+      mean: -0.15993968154444843
+      std: 0
+      b: 0
+      shape: (10, 128, 5, 5)
+      total_numel: 1584000
+  output:
+    min: -6.753973484039307
+    max: 5.781126022338867
+    avg_min: -3.3299413291905045
+    avg_max: 3.5229922155920783
+    mean: -0.028245645243712147
+    std: 0
+    b: 0
+    shape: (10, 128, 5, 5)
+    total_numel: 1584000
+additional_blocks.3.2:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.781126022338867
+      avg_min: 0.0
+      avg_max: 3.5229922155920783
+      mean: 0.2091173974239465
+      std: 0
+      b: 0
+      shape: (10, 128, 5, 5)
+      total_numel: 1584000
+  output:
+    min: 0.0
+    max: 5.781126022338867
+    avg_min: 0.0
+    avg_max: 3.5229922155920783
+    mean: 0.2091173974239465
+    std: 0
+    b: 0
+    shape: (10, 128, 5, 5)
+    total_numel: 1584000
+additional_blocks.3.3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.781126022338867
+      avg_min: 0.0
+      avg_max: 3.5229922155920783
+      mean: 0.2091173974239465
+      std: 0
+      b: 0
+      shape: (10, 128, 5, 5)
+      total_numel: 1584000
+  output:
+    min: -2.126434564590454
+    max: 2.5330209732055664
+    avg_min: -1.3844647139459232
+    avg_max: 1.2041166378808463
+    mean: -0.07925262290620645
+    std: 0
+    b: 0
+    shape: (10, 256, 3, 3)
+    total_numel: 1140480
+additional_blocks.3.4:
+  inputs:
+    0:
+      min: -2.126434564590454
+      max: 2.5330209732055664
+      avg_min: -1.3844647139459232
+      avg_max: 1.2041166378808463
+      mean: -0.07925262290620645
+      std: 0
+      b: 0
+      shape: (10, 256, 3, 3)
+      total_numel: 1140480
+  output:
+    min: -9.054089546203613
+    max: 14.695296287536621
+    avg_min: -3.938405714738209
+    avg_max: 5.4927293976399065
+    mean: 0.14959543990232593
+    std: 0
+    b: 0
+    shape: (10, 256, 3, 3)
+    total_numel: 1140480
+additional_blocks.3.5:
+  inputs:
+    0:
+      min: 0.0
+      max: 14.695296287536621
+      avg_min: 0.0
+      avg_max: 5.4927293976399065
+      mean: 0.4241922783129143
+      std: 0
+      b: 0
+      shape: (10, 256, 3, 3)
+      total_numel: 1140480
+  output:
+    min: 0.0
+    max: 14.695296287536621
+    avg_min: 0.0
+    avg_max: 5.4927293976399065
+    mean: 0.4241922783129143
+    std: 0
+    b: 0
+    shape: (10, 256, 3, 3)
+    total_numel: 1140480
+additional_blocks.4.0:
+  inputs:
+    0:
+      min: 0.0
+      max: 14.695296287536621
+      avg_min: 0.0
+      avg_max: 5.4927293976399065
+      mean: 0.4241922783129143
+      std: 0
+      b: 0
+      shape: (10, 256, 3, 3)
+      total_numel: 1140480
+  output:
+    min: -3.26356840133667
+    max: 2.812854051589966
+    avg_min: -1.7117851550204386
+    avg_max: 1.364895158311794
+    mean: -0.16316538916693799
+    std: 0
+    b: 0
+    shape: (10, 128, 3, 3)
+    total_numel: 570240
+additional_blocks.4.1:
+  inputs:
+    0:
+      min: -3.26356840133667
+      max: 2.812854051589966
+      avg_min: -1.7117851550204386
+      avg_max: 1.364895158311794
+      mean: -0.16316538916693799
+      std: 0
+      b: 0
+      shape: (10, 128, 3, 3)
+      total_numel: 570240
+  output:
+    min: -4.400636196136475
+    max: 5.095627784729004
+    avg_min: -2.356431605006062
+    avg_max: 2.6191363555541542
+    mean: -0.019399149573745684
+    std: 0
+    b: 0
+    shape: (10, 128, 3, 3)
+    total_numel: 570240
+additional_blocks.4.2:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.095627784729004
+      avg_min: 0.0
+      avg_max: 2.6191363555541542
+      mean: 0.19308268657303285
+      std: 0
+      b: 0
+      shape: (10, 128, 3, 3)
+      total_numel: 570240
+  output:
+    min: 0.0
+    max: 5.095627784729004
+    avg_min: 0.0
+    avg_max: 2.6191363555541542
+    mean: 0.19308268657303285
+    std: 0
+    b: 0
+    shape: (10, 128, 3, 3)
+    total_numel: 570240
+additional_blocks.4.3:
+  inputs:
+    0:
+      min: 0.0
+      max: 5.095627784729004
+      avg_min: 0.0
+      avg_max: 2.6191363555541542
+      mean: 0.19308268657303285
+      std: 0
+      b: 0
+      shape: (10, 128, 3, 3)
+      total_numel: 570240
+  output:
+    min: -2.133976936340332
+    max: 2.307579755783081
+    avg_min: -0.9216969518393048
+    avg_max: 0.856694640604202
+    mean: -0.06353312815078582
+    std: 0
+    b: 0
+    shape: (10, 256, 1, 1)
+    total_numel: 126720
+additional_blocks.4.4:
+  inputs:
+    0:
+      min: -2.133976936340332
+      max: 2.307579755783081
+      avg_min: -0.9216969518393048
+      avg_max: 0.856694640604202
+      mean: -0.06353312815078582
+      std: 0
+      b: 0
+      shape: (10, 256, 1, 1)
+      total_numel: 126720
+  output:
+    min: -11.76793384552002
+    max: 17.903337478637695
+    avg_min: -2.3935432553492184
+    avg_max: 5.772105367452698
+    mean: 0.32755465868747596
+    std: 0
+    b: 0
+    shape: (10, 256, 1, 1)
+    total_numel: 126720
+additional_blocks.4.5:
+  inputs:
+    0:
+      min: 0.0
+      max: 17.903337478637695
+      avg_min: 0.0
+      avg_max: 5.772105367452698
+      mean: 0.5357840509125681
+      std: 0
+      b: 0
+      shape: (10, 256, 1, 1)
+      total_numel: 126720
+  output:
+    min: 0.0
+    max: 17.903337478637695
+    avg_min: 0.0
+    avg_max: 5.772105367452698
+    mean: 0.5357840509125681
+    std: 0
+    b: 0
+    shape: (10, 256, 1, 1)
+    total_numel: 126720
+loc.0:
+  inputs:
+    0:
+      min: 0.0
+      max: 11.234814643859863
+      avg_min: 0.0
+      avg_max: 5.312966854791111
+      mean: 0.11034591940794938
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -16.887990951538086
+    max: 5.525125026702881
+    avg_min: -9.3101586099109
+    avg_max: 3.2260492380151273
+    mean: -0.5058641220080393
+    std: 0
+    b: 0
+    shape: (10, 16, 38, 38)
+    total_numel: 11436480
+loc.1:
+  inputs:
+    0:
+      min: 0.0
+      max: 16.542150497436523
+      avg_min: 0.0
+      avg_max: 8.177799059373166
+      mean: 0.21925551178252617
+      std: 0
+      b: 0
+      shape: (10, 512, 19, 19)
+      total_numel: 91491840
+  output:
+    min: -4.687704563140869
+    max: 4.741268157958984
+    avg_min: -2.959904680514187
+    avg_max: 3.20244987759205
+    mean: 0.052218139213517104
+    std: 0
+    b: 0
+    shape: (10, 24, 19, 19)
+    total_numel: 4288680
+loc.2:
+  inputs:
+    0:
+      min: 0.0
+      max: 19.99512481689453
+      avg_min: 0.0
+      avg_max: 7.665332181537989
+      mean: 0.22684170948375354
+      std: 0
+      b: 0
+      shape: (10, 512, 10, 10)
+      total_numel: 25344000
+  output:
+    min: -5.517071723937988
+    max: 4.195258140563965
+    avg_min: -3.6478491542359888
+    avg_max: 2.9294317562094445
+    mean: -0.021713563463101885
+    std: 0
+    b: 0
+    shape: (10, 24, 10, 10)
+    total_numel: 1188000
+loc.3:
+  inputs:
+    0:
+      min: 0.0
+      max: 26.41446304321289
+      avg_min: 0.0
+      avg_max: 8.778798191628049
+      mean: 0.38432117778123026
+      std: 0
+      b: 0
+      shape: (10, 256, 5, 5)
+      total_numel: 3168000
+  output:
+    min: -4.252659797668457
+    max: 3.956796884536743
+    avg_min: -2.7556710781585303
+    avg_max: 2.885734517082738
+    mean: -0.1426164339110506
+    std: 0
+    b: 0
+    shape: (10, 24, 5, 5)
+    total_numel: 297000
+loc.4:
+  inputs:
+    0:
+      min: 0.0
+      max: 14.695296287536621
+      avg_min: 0.0
+      avg_max: 5.4927293976399065
+      mean: 0.4241922783129143
+      std: 0
+      b: 0
+      shape: (10, 256, 3, 3)
+      total_numel: 1140480
+  output:
+    min: -3.799219846725464
+    max: 3.819417715072632
+    avg_min: -2.5472028936650184
+    avg_max: 2.370964651401434
+    mean: -0.2651006086373035
+    std: 0
+    b: 0
+    shape: (10, 16, 3, 3)
+    total_numel: 71280
+loc.5:
+  inputs:
+    0:
+      min: 0.0
+      max: 17.903337478637695
+      avg_min: 0.0
+      avg_max: 5.772105367452698
+      mean: 0.5357840509125681
+      std: 0
+      b: 0
+      shape: (10, 256, 1, 1)
+      total_numel: 126720
+  output:
+    min: -3.403998851776123
+    max: 2.9628350734710693
+    avg_min: -1.6058016118953649
+    avg_max: 1.4338564217647949
+    mean: -0.1537500350764303
+    std: 0
+    b: 0
+    shape: (10, 16, 1, 1)
+    total_numel: 7920
+conf.0:
+  inputs:
+    0:
+      min: 0.0
+      max: 11.234814643859863
+      avg_min: 0.0
+      avg_max: 5.312966854791111
+      mean: 0.11034591940794938
+      std: 0
+      b: 0
+      shape: (10, 1024, 38, 38)
+      total_numel: 731934720
+  output:
+    min: -7.315031051635742
+    max: 18.39592933654785
+    avg_min: -4.043955937758935
+    avg_max: 11.634311221096558
+    mean: -0.0011542403528912704
+    std: 0
+    b: 0
+    shape: (10, 324, 38, 38)
+    total_numel: 231588720
+conf.1:
+  inputs:
+    0:
+      min: 0.0
+      max: 16.542150497436523
+      avg_min: 0.0
+      avg_max: 8.177799059373166
+      mean: 0.21925551178252617
+      std: 0
+      b: 0
+      shape: (10, 512, 19, 19)
+      total_numel: 91491840
+  output:
+    min: -7.662039756774902
+    max: 20.64972686767578
+    avg_min: -4.542174358416724
+    avg_max: 13.180251868100733
+    mean: -0.00038724631149637454
+    std: 0
+    b: 0
+    shape: (10, 486, 19, 19)
+    total_numel: 86845770
+conf.2:
+  inputs:
+    0:
+      min: 0.0
+      max: 19.99512481689453
+      avg_min: 0.0
+      avg_max: 7.665332181537989
+      mean: 0.22684170948375354
+      std: 0
+      b: 0
+      shape: (10, 512, 10, 10)
+      total_numel: 25344000
+  output:
+    min: -7.8691864013671875
+    max: 20.90666389465332
+    avg_min: -4.4157079393678735
+    avg_max: 14.566180278847376
+    mean: -0.0014941783517644941
+    std: 0
+    b: 0
+    shape: (10, 486, 10, 10)
+    total_numel: 24057000
+conf.3:
+  inputs:
+    0:
+      min: 0.0
+      max: 26.41446304321289
+      avg_min: 0.0
+      avg_max: 8.778798191628049
+      mean: 0.38432117778123026
+      std: 0
+      b: 0
+      shape: (10, 256, 5, 5)
+      total_numel: 3168000
+  output:
+    min: -9.924615859985352
+    max: 21.377681732177734
+    avg_min: -4.28822882518058
+    avg_max: 13.424087489731344
+    mean: 0.0015379276385840302
+    std: 0
+    b: 0
+    shape: (10, 486, 5, 5)
+    total_numel: 6014250
+conf.4:
+  inputs:
+    0:
+      min: 0.0
+      max: 14.695296287536621
+      avg_min: 0.0
+      avg_max: 5.4927293976399065
+      mean: 0.4241922783129143
+      std: 0
+      b: 0
+      shape: (10, 256, 3, 3)
+      total_numel: 1140480
+  output:
+    min: -8.265641212463379
+    max: 19.481109619140625
+    avg_min: -3.4747880864826404
+    avg_max: 11.57589428153072
+    mean: -0.0010545381672690806
+    std: 0
+    b: 0
+    shape: (10, 324, 3, 3)
+    total_numel: 1443420
+conf.5:
+  inputs:
+    0:
+      min: 0.0
+      max: 17.903337478637695
+      avg_min: 0.0
+      avg_max: 5.772105367452698
+      mean: 0.5357840509125681
+      std: 0
+      b: 0
+      shape: (10, 256, 1, 1)
+      total_numel: 126720
+  output:
+    min: -5.152920722961426
+    max: 15.773065567016602
+    avg_min: -2.014958809829787
+    avg_max: 8.632985579771217
+    mean: 0.0015518709197724038
+    std: 0
+    b: 0
+    shape: (10, 324, 1, 1)
+    total_numel: 160380
