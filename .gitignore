@@ -130,4 +130,4 @@ dmypy.json
 
 #All pycharm stuff..
 .idea/
-/DeepLearningExamples/PyTorch/Detection/SSD/nvidia_ssdpyt_fp32_20190225.pt
+./DeepLearningExamples/PyTorch/Detection/SSD/nvidia_ssdpyt_fp32_20190225.pt
