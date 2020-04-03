@@ -15,9 +15,9 @@
 from torch.autograd import Variable
 import torch
 import time
-from SSD import _C as C
-
-from apex import amp
+# from SSD import _C as C
+#
+# from apex import amp
 
 def train_loop(model, loss_func, epoch, optim, train_dataloader, val_dataloader, encoder, iteration, logger, args, mean, std):
 #     for nbatch, (img, _, img_size, bbox, label) in enumerate(train_dataloader):
@@ -210,7 +210,8 @@ def load_checkpoint(model, checkpoint):
     od = torch.load(checkpoint)
 
     # remove proceeding 'N.' from checkpoint that comes from DDP wrapper
-    saved_model = od["model"]
+    # saved_model = od["model"]
+    saved_model = od
     model.load_state_dict(saved_model)
 
 

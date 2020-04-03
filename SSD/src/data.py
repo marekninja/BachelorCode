@@ -42,8 +42,8 @@ def get_val_dataset(args):
     val_trans = SSDTransformer(dboxes, (300, 300), val=True)
 
     val_annotate = os.path.join(args.data, "annotations/instances_val2017.json")
-    # val_coco_root = os.path.join(args.data, "val2017") #povodne
-    val_coco_root = os.path.join(args.data, "images/val2017")
+    val_coco_root = os.path.join(args.data, "val2017") #povodne
+    # val_coco_root = os.path.join(args.data, "images/val2017")
 
     val_coco = COCODetection(val_coco_root, val_annotate, val_trans)
     return val_coco
