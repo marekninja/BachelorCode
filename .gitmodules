@@ -1,3 +1,3 @@
 [submodule "DeepLearningExamples"]
 	path = DeepLearningExamples
-	url = ./DeepLearningExamples
+	url = https://github.com/NVIDIA/DeepLearningExamples.git
