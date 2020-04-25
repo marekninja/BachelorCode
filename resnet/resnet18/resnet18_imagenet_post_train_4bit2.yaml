@@ -65,7 +65,7 @@ quantizers:
 
     # Path to stats file assuming this is being invoked from the 'classifier_compression' example directory
 #    model_activation_stats: ../quantization/post_train_quant/stats/resnet18_quant_stats.yaml
-    model_activation_stats: /home/bohumil/FIIT/BP/BP/Zdroje_kod/quantization_jupyters/acts_quantization_stats.yaml
+    model_activation_stats: /home/bohumil/FIIT/BP/BP/Zdroje_kod/quantization_jupyters/resnet/acts_quantization_stats.yaml
     per_channel_wts: True
     clip_acts: AVG
 

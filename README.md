@@ -1,35 +1,39 @@
 # BachelorCode
 ## Quantization of Image classifiers and Object detectors
 
-Resources:
 
-https://github.com/NervanaSystems/distiller
-https://nervanasystems.github.io/distiller/
-https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Detection/SSD
-https://github.com/amdegroot/ssd.pytorch
-https://github.com/qfgaohao/pytorch-ssd
-
-
-## ResNet
+## ResNet - Done
 *   https://nervanasystems.github.io/distiller/
 *   PyTorch impl.
 
 ### [ResNet_2.ipynb](./resnet/ResNet_2.ipynb)
 Quantization of ResNet18
-*   Tried 8bit, 4bit
+*   8bit 
+*   4bit
+
+### [ResNet18 - LAPQ](./resnet/resnet18/2020.04.23-155202/2020.04.23-155202.log)
+Loss-Aware Quantization of ResNet18
+*   4bit
+
 
 ### [ResNet50.ipynb](./resnet/ResNet50.ipynb)
 Quantization of ResNet50
-*   Tried 8bit, 4bit
-*   Not everything calculated yet...
+*   8bit 
+*   4bit
 *   (maybe deeper network won't lose acc due to quant.)
 
-## [SSD Nvidia impl.](./DeepLearningExamples/PyTorch/Detection/SSD/SSD_NVIDIA.ipynb)
+
+## SSD - Done
+*   https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Detection/SSD
+
+
+### [SSD Nvidia impl.](./DeepLearningExamples/PyTorch/Detection/SSD/SSD_NVIDIA.ipynb)
 *	latest
-*   fixed SSD_3 issues
 *   base AP 13 %
 *   4 bit quant AP 4 %
 *   from: https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Detection/SSD
+
+## Not working implementations
 
 ### [SSD_3](./SSD/SSD_3.ipynb)
 *	used model with PyTorch Checkopint https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Detection/SSD#model-architecture
@@ -53,6 +57,16 @@ SSD.ipynb
 
 SSD_2.ipynb
 *	based on https://pytorch.org/hub/nvidia_deeplearningexamples_ssd/ tutorial
+
+
+## Resources:
+*   not all used
+
+https://github.com/NervanaSystems/distiller
+https://nervanasystems.github.io/distiller/
+https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Detection/SSD
+https://github.com/amdegroot/ssd.pytorch
+https://github.com/qfgaohao/pytorch-ssd
 
 
 	
