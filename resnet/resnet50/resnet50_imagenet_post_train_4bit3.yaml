@@ -52,7 +52,7 @@ quantizers:
     class: PostTrainLinearQuantizer
     bits_activations: 4
     bits_parameters: 4
-    bits_accum: 16
+    bits_accum: 32
 
     # Quantization mode can be defined either with a single value for both weights and activations, or with
     # a nested dictionary specifying weights and activations separately.
