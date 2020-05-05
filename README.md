@@ -11,9 +11,13 @@ Quantization of ResNet18
 *   8bit 
 *   4bit
 
-### [ResNet18 - LAPQ](./resnet/resnet18/2020.04.23-155202/2020.04.23-155202.log)
+### [ResNet18 - LAPQ v1](./resnet/resnet18/2020.04.23-155202/2020.04.23-155202.log)
 Loss-Aware Quantization of ResNet18
 *   4bit
+
+### [ResNet18 - LAPQ v2](./resnet/resnet18/2020.04.30-231007/2020.04.30-231007.log)
+Loss-Aware Quantization of ResNet18
+*   4bit + 8bit
 
 
 ### [ResNet50.ipynb](./resnet/ResNet50.ipynb)
