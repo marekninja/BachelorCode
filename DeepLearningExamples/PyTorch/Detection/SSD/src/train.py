@@ -15,7 +15,7 @@
 from torch.autograd import Variable
 import torch
 import time
-# from SSD import _C as C
+from SSD import _C as C
 
 # from apex import amp
 

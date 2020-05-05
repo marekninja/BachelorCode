@@ -22,7 +22,7 @@ from src.utils import SSDTransformer
 from src.coco import COCO
 #DALI import
 # from src.coco_pipeline import COCOPipeline, DALICOCOIterator
-
+#
 # def get_train_loader(args, local_seed):
 #     train_annotate = os.path.join(args.data, "annotations/instances_train2017.json")
 #     train_coco_root = os.path.join(args.data, "train2017")

@@ -28,7 +28,7 @@ from src.utils import dboxes300_coco, Encoder
 from src.logger import Logger, BenchLogger
 from src.evaluate import evaluate
 from src.train import train_loop, tencent_trick, load_checkpoint, benchmark_train_loop, benchmark_inference_loop
-# from src.data import get_train_loader, get_val_dataset, get_val_dataloader, get_coco_ground_truth
+from src.data import get_train_loader, get_val_dataset, get_val_dataloader, get_coco_ground_truth
 from src.data import get_val_dataset, get_val_dataloader, get_coco_ground_truth
 import distiller
 
@@ -138,8 +138,8 @@ def config_notebooks_logger():
     msglogger.info('Logging configured successfully')
     return msglogger
 
-# def train(train_loop_func, logger, args):
-def train(logger, args):
+def train(train_loop_func, logger, args):
+# def train(logger, args):
     # Check that GPUs are actually available
     use_cuda = not args.no_cuda
 
@@ -170,7 +170,7 @@ def train(logger, args):
     encoder = Encoder(dboxes)
     cocoGt = get_coco_ground_truth(args)
 
-    # train_loader = get_train_loader(args, args.seed - 2**31)
+    train_loader = get_train_loader(args, args.seed - 2**31)
 
     val_dataset = get_val_dataset(args)
     val_dataloader = get_val_dataloader(val_dataset, args)
@@ -266,39 +266,39 @@ def train(logger, args):
             print('Model precision {} mAP'.format(acc))
 
         return
-    # mean, std = generate_mean_std(args)
-    #
-    # for epoch in range(start_epoch, args.epochs):
-    #     start_epoch_time = time.time()
-    #     scheduler.step()
-    #     iteration = train_loop_func(ssd300, loss_func, epoch, optimizer, train_loader, val_dataloader, encoder, iteration,
-    #                                 logger, args, mean, std)
-    #     end_epoch_time = time.time() - start_epoch_time
-    #     total_time += end_epoch_time
-    #
-    #     if args.local_rank == 0:
-    #         logger.update_epoch_time(epoch, end_epoch_time)
-    #
-    #     if epoch in args.evaluation:
-    #         acc = evaluate(ssd300, val_dataloader, cocoGt, encoder, inv_map, args)
-    #
-    #         if args.local_rank == 0:
-    #             logger.update_epoch(epoch, acc)
-    #
-    #     if args.save and args.local_rank == 0:
-    #         print("saving model...")
-    #         obj = {'epoch': epoch + 1,
-    #                'iteration': iteration,
-    #                'optimizer': optimizer.state_dict(),
-    #                'scheduler': scheduler.state_dict(),
-    #                'label_map': val_dataset.label_info}
-    #         if args.distributed:
-    #             obj['model'] = ssd300.module.state_dict()
-    #         else:
-    #             obj['model'] = ssd300.state_dict()
-    #         torch.save(obj, './models/epoch_{}.pt'.format(epoch))
-    #     train_loader.reset()
-    # print('total training time: {}'.format(total_time))
+    mean, std = generate_mean_std(args)
+
+    for epoch in range(start_epoch, args.epochs):
+        start_epoch_time = time.time()
+        scheduler.step()
+        iteration = train_loop_func(ssd300, loss_func, epoch, optimizer, train_loader, val_dataloader, encoder, iteration,
+                                    logger, args, mean, std)
+        end_epoch_time = time.time() - start_epoch_time
+        total_time += end_epoch_time
+
+        if args.local_rank == 0:
+            logger.update_epoch_time(epoch, end_epoch_time)
+
+        if epoch in args.evaluation:
+            acc = evaluate(ssd300, val_dataloader, cocoGt, encoder, inv_map, args)
+
+            if args.local_rank == 0:
+                logger.update_epoch(epoch, acc)
+
+        if args.save and args.local_rank == 0:
+            print("saving model...")
+            obj = {'epoch': epoch + 1,
+                   'iteration': iteration,
+                   'optimizer': optimizer.state_dict(),
+                   'scheduler': scheduler.state_dict(),
+                   'label_map': val_dataset.label_info}
+            if args.distributed:
+                obj['model'] = ssd300.module.state_dict()
+            else:
+                obj['model'] = ssd300.state_dict()
+            torch.save(obj, './models/epoch_{}.pt'.format(epoch))
+        train_loader.reset()
+    print('total training time: {}'.format(total_time))
 
 
 if __name__ == "__main__":
@@ -321,5 +321,5 @@ if __name__ == "__main__":
         train_loop_func = train_loop
         logger = Logger('Training logger', print_freq=1)
 
-    # train(train_loop_func, logger, args)
-    train(logger, args)
+    train(train_loop_func, logger, args)
+    # train(logger, args)
