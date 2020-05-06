@@ -15,67 +15,67 @@
 from torch.autograd import Variable
 import torch
 import time
-from SSD import _C as C
+# from SSD import _C as C
 
 # from apex import amp
 
-def train_loop(model, loss_func, epoch, optim, train_dataloader, val_dataloader, encoder, iteration, logger, args, mean, std):
-#     for nbatch, (img, _, img_size, bbox, label) in enumerate(train_dataloader):
-    for nbatch, data in enumerate(train_dataloader):
-        img = data[0][0][0]
-        bbox = data[0][1][0]
-        label = data[0][2][0]
-        label = label.type(torch.cuda.LongTensor)
-        bbox_offsets = data[0][3][0]
-        # handle random flipping outside of DALI for now
-        bbox_offsets = bbox_offsets.cuda()
-        img, bbox = C.random_horiz_flip(img, bbox, bbox_offsets, 0.5, False)
-        img.sub_(mean).div_(std)
-        if not args.no_cuda:
-            img = img.cuda()
-            bbox = bbox.cuda()
-            label = label.cuda()
-            bbox_offsets = bbox_offsets.cuda()
-
-        N = img.shape[0]
-        if bbox_offsets[-1].item() == 0:
-            print("No labels in batch")
-            continue
-        bbox, label = C.box_encoder(N, bbox, bbox_offsets, label, encoder.dboxes.cuda(), 0.5)
-        # output is ([N*8732, 4], [N*8732], need [N, 8732, 4], [N, 8732] respectively
-        M = bbox.shape[0] // N
-        bbox = bbox.view(N, M, 4)
-        label = label.view(N, M)
-
-        ploc, plabel = model(img)
-        ploc, plabel = ploc.float(), plabel.float()
-
-        trans_bbox = bbox.transpose(1, 2).contiguous().cuda()
-
-        if not args.no_cuda:
-            label = label.cuda()
-        gloc = Variable(trans_bbox, requires_grad=False)
-        glabel = Variable(label, requires_grad=False)
-
-        loss = loss_func(ploc, plabel, gloc, glabel)
-
-        if args.local_rank == 0:
-            logger.update_iter(epoch, iteration, loss.item())
-
-        if args.amp:
-            with amp.scale_loss(loss, optim) as scale_loss:
-                scale_loss.backward()
-        else:
-            loss.backward()
-
-        if args.warmup is not None:
-            warmup(optim, args.warmup, iteration, args.learning_rate)
-
-        optim.step()
-        optim.zero_grad()
-        iteration += 1
-
-    return iteration
+# def train_loop(model, loss_func, epoch, optim, train_dataloader, val_dataloader, encoder, iteration, logger, args, mean, std):
+# #     for nbatch, (img, _, img_size, bbox, label) in enumerate(train_dataloader):
+#     for nbatch, data in enumerate(train_dataloader):
+#         img = data[0][0][0]
+#         bbox = data[0][1][0]
+#         label = data[0][2][0]
+#         label = label.type(torch.cuda.LongTensor)
+#         bbox_offsets = data[0][3][0]
+#         # handle random flipping outside of DALI for now
+#         bbox_offsets = bbox_offsets.cuda()
+#         img, bbox = C.random_horiz_flip(img, bbox, bbox_offsets, 0.5, False)
+#         img.sub_(mean).div_(std)
+#         if not args.no_cuda:
+#             img = img.cuda()
+#             bbox = bbox.cuda()
+#             label = label.cuda()
+#             bbox_offsets = bbox_offsets.cuda()
+#
+#         N = img.shape[0]
+#         if bbox_offsets[-1].item() == 0:
+#             print("No labels in batch")
+#             continue
+#         bbox, label = C.box_encoder(N, bbox, bbox_offsets, label, encoder.dboxes.cuda(), 0.5)
+#         # output is ([N*8732, 4], [N*8732], need [N, 8732, 4], [N, 8732] respectively
+#         M = bbox.shape[0] // N
+#         bbox = bbox.view(N, M, 4)
+#         label = label.view(N, M)
+#
+#         ploc, plabel = model(img)
+#         ploc, plabel = ploc.float(), plabel.float()
+#
+#         trans_bbox = bbox.transpose(1, 2).contiguous().cuda()
+#
+#         if not args.no_cuda:
+#             label = label.cuda()
+#         gloc = Variable(trans_bbox, requires_grad=False)
+#         glabel = Variable(label, requires_grad=False)
+#
+#         loss = loss_func(ploc, plabel, gloc, glabel)
+#
+#         if args.local_rank == 0:
+#             logger.update_iter(epoch, iteration, loss.item())
+#
+#         if args.amp:
+#             with amp.scale_loss(loss, optim) as scale_loss:
+#                 scale_loss.backward()
+#         else:
+#             loss.backward()
+#
+#         if args.warmup is not None:
+#             warmup(optim, args.warmup, iteration, args.learning_rate)
+#
+#         optim.step()
+#         optim.zero_grad()
+#         iteration += 1
+#
+#     return iteration
 
 
 def benchmark_train_loop(model, loss_func, epoch, optim, train_dataloader, val_dataloader, encoder, iteration, logger, args, mean, std):

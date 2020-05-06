@@ -8,8 +8,9 @@
 
 ### [ResNet_2.ipynb](./resnet/ResNet_2.ipynb)
 Quantization of ResNet18
-*   8bit 
-*   4bit
+*   8 bit, 7 bit, 6 bit, 5 bit
+*   4 bit
+*   Mixed 
 
 ### [ResNet18 - LAPQ v1](./resnet/resnet18/2020.04.23-155202/2020.04.23-155202.log)
 Loss-Aware Quantization of ResNet18
@@ -24,8 +25,8 @@ Loss-Aware Quantization of ResNet18
 Quantization of ResNet50
 *   8bit 
 *   4bit
-*   (maybe deeper network won't lose acc due to quant.)
-
+    *   (maybe deeper network won't lose acc due to quant.)
+*   Mixed
 
 ## SSD - Done
 *   https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Detection/SSD
@@ -34,6 +35,7 @@ Quantization of ResNet50
 ### [SSD Nvidia impl.](./DeepLearningExamples/PyTorch/Detection/SSD/SSD_NVIDIA.ipynb)
 *	latest
 *   base AP 13 %
+*   8 bit, 7 bit, 6 bit, 5 bit
 *   4 bit quant AP 4 %
 *   from: https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Detection/SSD
 
